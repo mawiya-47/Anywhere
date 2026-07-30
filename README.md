@@ -17,20 +17,45 @@
 
 ## ✨ Ye Hai Kya
 
-**Anywhere** ek 3D interactive globe hai jisme tum kahin bhi click karo — pin drop hoga, aur AI (Gemini) turant us jagah ki details, tasveer, aur kahani generate kar dega. Bina flight book kiye, duniya explore karo — seedha apne screen se. 🚀
+**Anywhere** ek AI-powered app hai jisme tum apni photo upload karo (ya camera se click karo), aur AI (Gemini) tumhe duniya ki alag-alag khoobsurat jagahon par "teleport" kar deta hai — Golden Gate Bridge, Mount Fuji, Victoria Falls, Northern Lights, jahan bhi socho. Sab tasveerein ek interactive 3D globe mein khoobsurati se arrange ho jaati hain.
 
-Socho ek digital Google Earth + AI tour guide ka combo — bas yahi **Anywhere** hai.
+Socho AI photo editing + 3D globe visualization ka combo — bas yahi **Anywhere** hai. Bina flight book kiye, khud ko duniya bhar mein "dekho". 🚀
 
 ---
 
 ## 🔥 Features
 
-- 🌐 **3D Rotating Globe** — `three.js` + `@react-three/fiber` se banaya gaya buttery-smooth globe
-- 🤖 **AI-Powered Location Info** — Gemini API se real-time, dynamic content generation
-- 🖼️ **Gallery View** — locations ki tasveerein ek khoobsurat gallery mein
+- 📸 **Click ya Upload** — apni photo camera se click karo ya seedha upload karo
+- 🤖 **AI-Powered Visualization** — Gemini API tumhari photo ko different world locations par realistically place karta hai
+- 🌐 **3D Interactive Globe** — `three.js` + `@react-three/fiber` se banaya gaya buttery-smooth rotating globe jisme saari generated photos lagti hain
+- 🖼️ **Photo Collage Effect** — globe surface par tumhari photos ek beautiful mosaic ki tarah dikhti hain
 - ⚡ **Fast & Modern Stack** — Vite + React 19 + TypeScript
 - 🎨 **Smooth Animations** — `motion` library se silky transitions
 - 💻 **Full-Stack Ready** — Express backend server ke saath deploy-ready
+
+---
+
+## 📸 Screenshots
+
+<div align="center">
+
+**1. Home Screen — apni photo click ya upload karo**
+
+<img src="assets/screenshot-home.png" width="500"/>
+
+**2. Camera permission request**
+
+<img src="assets/screenshot-camera-permission.png" width="500"/>
+
+**3. Empty globe — AI generation start hone se pehle**
+
+<img src="assets/screenshot-globe-empty.png" width="500"/>
+
+**4. Globe filled with AI-generated location photos**
+
+<img src="assets/screenshot-globe-filled.png" width="500"/>
+
+</div>
 
 ---
 
